@@ -1,9 +1,13 @@
-# Marathon Runners Statistical Analysis 🏃♂️📊
+# Marathon Runners Statistical Analysis 
+![Runners-Boylston-Street-Boston-Marathon-April-18-2016-2610626098](https://github.com/user-attachments/assets/eed03006-ecd2-4540-85cf-62810fd77819)
 
 A comprehensive analysis of marathon runners' performance, demographics, and global trends using a dataset of over 1.4 million entries. This project explores relationships between age, gender, country, event characteristics, and athletic performance.
 
 
+
+
 ## Dataset Overview
+
 The dataset contains the following columns:
 
 | Column Name                     | Description                              | Data Type   |
@@ -25,8 +29,17 @@ The dataset contains the following columns:
 | Event distance (km)             | Standardized distance in kilometers      | `float64`   |
 | Athlete run time (h)            | Performance time converted to hours      | `float64`   |
 
+## Data preparation
 
-## Data analysis
+The following steps were taken to prepare the data for analysis:
+
+- Extracting country code from event name
+- Calculating athlete age
+- Converting athlete performance from HH:MM:SS string to more usable format
+- Removing null values and outliers
+
+
+# Data analysis
 
 ## Athlete statistics
 
